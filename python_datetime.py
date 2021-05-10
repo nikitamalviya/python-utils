@@ -1,5 +1,10 @@
 import datetime
 
+def convert_str_to_datetime(mydatetime):
+    mydatetime = mydatetime[0].split("+")[0]
+    mydatetime = datetime.datetime.strptime(mydatetime,'%Y-%m-%d %H:%M:%S.%f')
+    return mydatetime
+
 def convert_datetime_to_str(date_= datetime.datetime.today()):
     if isinstance(date_, datetime.datetime) or type(date_)==str:
         date_ = date_.__str__()
