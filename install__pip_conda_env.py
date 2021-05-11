@@ -2,6 +2,8 @@
 python -m pip install --upgrade pip
 # install package
 pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org -U pytesseract
+# install requirements
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org -U -r requirements.txt
 # upgrade package
 python -m pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --upgrade Pillow --user
 
