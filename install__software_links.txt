@@ -1,0 +1,8 @@
+# VS CODE MYSQL
+https://marketplace.visualstudio.com/items?itemName=bajdzis.vscode-database
+
+# TESSERACT
+https://github.com/UB-Mannheim/tesseract/wiki
+
+# FFMPEG
+https://www.filehorse.com/download-ffmpeg/download/
