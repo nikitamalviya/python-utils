@@ -16,7 +16,7 @@ mysqldump -u root -p databasename > C:\MySQLBackup\mydatabase.sql
 mysqldump -u root -p –databases databasename tablename > C:\MySQLBackup\dbname_tablename_20200424.sql
 
 # backup of a database WITHOUT DATA 
-mysqldump -u root -p –no-data database_name > C:\MySQLBackup\sakila_objects_definition_20200424.sql
+mysqldump -u root -p –no-data database_name > C:\MySQLBackup\dbname_tablename_20200424.sql
 
 
 
