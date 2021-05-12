@@ -18,13 +18,15 @@ source ~/py36/bin/activate
 
 # for conda trusted host
 conda config --set ssl_verify no
+# install package using conda
+conda install -c conda-forge opencv=3.2.0
 # create conda env at a location
 conda create --prefix E:\Anaconda\env_name python=3.8
+# update conda
+conda update -n base -c defaults conda
 # install requirements.txt using conda 
 conda install --force-reinstall -y -q --name py37 -c conda-forge --file requirements.txt
 # delete conda env
 conda env remove -n env_name
 # remove env
 conda remove --name env_name --all
-# downgrade conda opencv
-conda install -c conda-forge opencv=3.2.0
