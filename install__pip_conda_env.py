@@ -15,7 +15,8 @@ python -m venv c:\path\to\py36
 source ~/py36/bin/activate
 # list installed packages
 pip freeze 
-
+# save requirements
+pip freeze > requirements.txt
 
 
 # for conda trusted host
@@ -34,6 +35,8 @@ conda install -c conda-forge opencv=3.2.0
 conda create --prefix E:\Anaconda\env_name python=3.8
 # list packages
 conda list
+# conda list or information of envs
+conda info --envs
 # update conda
 conda update -n base -c defaults conda
 # install requirements.txt using conda 
