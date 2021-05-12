@@ -18,6 +18,8 @@ source ~/py36/bin/activate
 
 # for conda trusted host
 conda config --set ssl_verify no
+# conda create new env
+conda create -n uw36 python=3.6
 # install package using conda
 conda install -c conda-forge opencv=3.2.0
 # create conda env at a location
