@@ -12,7 +12,7 @@ print(string1[::-1]) # str='dlrowolleh # reverse sstring
 # check only characters
 isalpha_status = str_.isalpha()
 # check only numbers 
-isnumeric_status = str_.isnumeric()
+isnumeric_status = str_.isnumeric() or str_.isdigit()
 # check combo of numbers and chars, false if any special char present 
 isalnum_status = str_.isalnum()
 
