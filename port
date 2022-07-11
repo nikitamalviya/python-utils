@@ -1,0 +1,13 @@
+# fetch pid for used port
+sudo netstat -ano -p tcp | grep 5000
+
+
+# show what is running on port
+netstat -pnltu
+
+
+# to fetch the nohup processes
+ps -ef | grep nohup 
+
+# this is the command to kill
+kill -9 pid
