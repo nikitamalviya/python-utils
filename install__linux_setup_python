@@ -1,0 +1,16 @@
+# install python
+sudo apt-get update
+sudo apt-get install python3.6
+
+sudo apt-get install python3-distutils
+sudo apt-get install python3-apt
+
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.8
+
+
+# install pip in python3
+sudo apt install python3-pip
+
