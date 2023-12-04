@@ -45,6 +45,8 @@ conda update -n base -c defaults conda
 # install requirements.txt using conda 
 conda install --force-reinstall -y -q --name py37 -c conda-forge --file requirements.txt
 # delete conda env
+conda remove -n ENV_NAME --all
+
 conda env remove -n env_name
 # remove env
 conda remove --name env_name --all
