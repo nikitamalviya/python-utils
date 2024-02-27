@@ -1,0 +1,18 @@
+
+color_codes = [
+    '#FF0000',  # Red
+    '#00FF00',  # Green
+    '#0000FF',  # Blue
+    '#FFFF00',  # Yellow
+    '#00FFFF',  # Cyan
+    '#FF00FF',  # Magenta
+    '#C0C0C0',  # Silver
+    '#808080',  # Gray
+    '#000000',  # Black
+    '#FFFFFF',  # White
+    '#F0F8FF',  # AliceBlue
+    '#FAEBD7',  # AntiqueWhite
+    '#00FFFF',  # Aqua
+    '#F0FFFF',  # Azure
+    '#D2B48C',  # Tan
+]
