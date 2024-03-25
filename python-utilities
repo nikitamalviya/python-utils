@@ -1,0 +1,2 @@
+# check if the path exists, if not then display the message
+assert os.path.isfile(configs.pretrained_path), "No file at {}".format(configs.pretrained_path)
