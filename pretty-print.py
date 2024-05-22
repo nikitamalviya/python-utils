@@ -4,6 +4,9 @@ import requests
 from pprint import pprint
 from rich import print_json
 
+# pretty print a dict
+pprint(dict_name)
+
 ############# 
 # pretty print API JSON response 
 with open(image_path, 'rb') as f:
