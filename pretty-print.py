@@ -4,13 +4,6 @@ import requests
 from pprint import pprint
 from rich import print_json
 
-
-# sort the dictionary key's values and pretty print the text    
-classes_count = {}
-classes_count = sorted(classes_count.items(), key=lambda item: item[1], reverse=True)
-click.secho(f"Sorted dictionary : ", fg="green")
-pprint(classes_count)
-
 ############# 
 # pretty print API JSON response 
 with open(image_path, 'rb') as f:
