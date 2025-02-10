@@ -1,2 +1,5 @@
 # check if the path exists, if not then display the message
 assert os.path.isfile(configs.pretrained_path), "No file at {}".format(configs.pretrained_path)
+
+# Add module path to the directory
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
